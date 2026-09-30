@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="it" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>(function(){var r=document.documentElement;r.classList.remove('no-js');
+/* la firma: finché main.js non parte c'è la sala senza la candela nuova; se il codice non arriva, dopo 2,5 s la candela accesa */
+try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add('firma-attesa');window.__attesaCera=setTimeout(function(){r.classList.remove('firma-attesa')},2500)}}catch(e){}})()</script>
+<title>Taberna San Tomaso — Trattoria milanese in Via San Tomaso 5, Milano (Cordusio)</title>
+<meta name="description" content="Taberna San Tomaso, Via San Tomaso 5, Milano: trattoria milanese fra Cordusio e il Castello Sforzesco. Risotto alla milanese, ossobuco, cotoletta, le proposte del giorno. Lun–ven 12–15 e 19–22, sabato 19–22. Google 4,4 su 985. Tel. 02 874510.">
+<link rel="canonical" href="https://rotenzark.github.io/taberna-san-tomaso/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Taberna San Tomaso — Un ristorante con antiche tradizioni.">
+<meta property="og:description" content="La trattoria milanese di Via San Tomaso 5, a due passi dal Castello Sforzesco e da Piazza Cordusio.">
+<meta property="og:image" content="https://rotenzark.github.io/taberna-san-tomaso/img/og.jpg">
+<meta property="og:url" content="https://rotenzark.github.io/taberna-san-tomaso/">
+<meta property="og:locale" content="it_IT">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#2E1D14">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="img/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Stoke:wght@300;400&amp;family=Fondamento&amp;family=Caudex:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css?v=1">
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
+<script src="js/main.js?v=1" defer></script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Restaurant","name":"Taberna San Tomaso","description":"Trattoria milanese in Via San Tomaso 5 a Milano, fra Cordusio e il Castello Sforzesco: risotto alla milanese, ossobuco, cotoletta, le proposte del giorno.","url":"https://rotenzark.github.io/taberna-san-tomaso/","image":"https://rotenzark.github.io/taberna-san-tomaso/img/og.jpg","telephone":"+39 02 874510","email":"tabernasantomaso5@gmail.com","servesCuisine":["Milanese","Italiana"],"address":{"@type":"PostalAddress","streetAddress":"Via San Tomaso 5","postalCode":"20121","addressLocality":"Milano","addressRegion":"MI","addressCountry":"IT"},"geo":{"@type":"GeoCoordinates","latitude":45.4671749,"longitude":9.1848649},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"12:00","closes":"15:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"19:00","closes":"22:00"}],"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.4","reviewCount":"985","bestRating":"5"}}
+</script>
+</head>
+<body>
+
+<a class="salta" href="#contenuto" data-i18n="m.salta">Vai al contenuto</a>
+
+<header class="testata" id="testata">
+  <div class="testata__dentro">
+    <a class="marchio" href="#inizio" aria-label="Taberna San Tomaso: torna all'inizio" data-i18n-aria="m.top">
+      <svg class="marchio__tondo" viewBox="0 0 200 200" aria-hidden="true"><circle class="distintivo__fondo" cx="100" cy="100" r="94"/><circle class="distintivo__anello" cx="100" cy="100" r="66"/><path class="distintivo__coda" d="M36 86 L12 92 L24 103 L14 116 L32 117 Z M164 83 L188 81 L177 95 L190 108 L170 114 Z"/><path class="distintivo__nastro" d="M34 86 C 72 76, 128 94, 166 83 L 172 114 C 134 126, 72 108, 30 117 Z"/></svg>
+      <span class="marchio__testo" aria-hidden="true"><span class="marchio__nome">Taberna San Tomaso</span><span class="marchio__citta">MILANO</span></span>
+    </a>
+    <nav id="mainNav" class="voci" aria-label="Le sezioni" data-i18n-aria="m.nav">
+      <a href="#proposte" data-i18n="n.proposte">Proposte</a>
+      <a href="#carta" data-i18n="n.carta">Carta</a>
+      <a href="#sala" data-i18n="n.sala">Sala</a>
+      <a href="#dicono" data-i18n="n.dicono">Dicono</a>
+      <a href="#orari" data-i18n="n.orari">Orari</a>
+      <a href="#dove" data-i18n="n.dove">Dove</a>
+    </nav>
+    <div class="testata__azioni">
+      <div class="lingue" role="group" aria-label="Lingua" data-i18n-aria="m.lingua">
+        <button type="button" data-lang="it" aria-pressed="true">IT</button>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+      <a class="chiama" href="tel:+3902874510"><span data-i18n="t.chiama">Chiama</span></a>
+      <button id="burger" class="burger" type="button" aria-expanded="false" aria-controls="menuMobile" aria-label="Apri il menu" data-i18n-aria="m.menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<nav id="menuMobile" class="menu-mobile" hidden aria-label="Le sezioni" data-i18n-aria="m.nav">
+  <a href="#proposte" data-i18n="n.proposte">Proposte</a>
+  <a href="#carta" data-i18n="n.carta">Carta</a>
+  <a href="#sala" data-i18n="n.sala">Sala</a>
+  <a href="#dicono" data-i18n="n.dicono">Dicono</a>
+  <a href="#orari" data-i18n="n.orari">Orari</a>
+  <a href="#dove" data-i18n="n.dove">Dove</a>
+  <a class="menu-mobile__tel" href="tel:+3902874510"><span data-i18n="t.chiama">Chiama</span> <span class="intero">02 874510</span></a>
+</nav>
+
+<main id="contenuto">
+
+  <!-- ══════ L'APERTURA: il muro giallo e la candela ══════ -->
+  <section id="inizio" class="apertura" aria-labelledby="titolo">
+    <div class="apertura__testo">
+      <p class="apertura__sopra" data-i18n="h.sopra">Trattoria milanese · Via San Tomaso 5, Cordusio</p>
+      <h1 id="titolo" class="titolo" data-i18n="h.titolo">Un ristorante con antiche tradizioni.</h1>
+      <p class="apertura__frase" data-i18n="h.testo">Trattoria nel cuore di Milano a due passi dal Castello Sforzesco e da Piazza Cordusio.</p>
+      <blockquote class="citazione">
+        <p>«Ottima esperienza nel centro che più centro di Milano non si può.»</p>
+        <footer data-i18n="h.chi">Luca Buccinnà, in una recensione su Google</footer>
+      </blockquote>
+      <p class="voto"><b class="voto__n">4,4</b> <span class="voto__su" data-i18n="h.google">su Google, 985 recensioni</span></p>
+      <p class="stato" id="orarioStato">Pranzo e cena, dal lunedì al sabato</p>
+      <div class="apertura__azioni">
+        <a class="bottone bottone--pieno" href="tel:+3902874510"><span data-i18n="t.chiama">Chiama</span>&nbsp;<span class="intero">02 874510</span></a>
+        <a class="bottone bottone--vuoto" href="https://www.google.com/maps/dir/?api=1&amp;destination=Taberna+San+Tomaso%2C+Via+San+Tomaso+5%2C+20121+Milano" target="_blank" rel="noopener" data-i18n="t.indicazioni">Indicazioni</a>
+      </div>
+    </div>
+    <div class="apertura__firma">
+      <div class="quadro">
+        <p class="insegna" aria-hidden="true"><span class="insegna__nastro" data-i18n="p.insegna">Cera su cera</span></p>
+        <figure class="tavola" id="cera-firma" data-modo="0" data-firma="fatta">
+<!--CERA--><svg class="cera__svg" id="ceraSvg" viewBox="0 0 600 560" role="img" aria-labelledby="ceraTitolo ceraDesc">
+        <title id="ceraTitolo" data-i18n="p.titolo">Cera su cera</title>
+        <desc id="ceraDesc" data-i18n="p.desc">Sul tavolo di legno, davanti al muro giallo e alla finestra a piombo, la cera colata delle sere prima. La candela nuova scende e si posa sopra; allo stoppino la scintilla, poi la fiamma; la luce si allarga sul muro; il bordo si scioglie e due colate scendono lungo la candela. Tre candele: rossa, bianca, arancio.</desc>
+        <defs>
+          <radialGradient id="tsm-alone"><stop offset="0" stop-color="#FFF3C9"/><stop offset=".28" stop-color="#F9DB86" stop-opacity=".82"/><stop offset=".62" stop-color="#EBBB4E" stop-opacity=".34"/><stop offset="1" stop-color="#E9B84A" stop-opacity="0"/></radialGradient>
+          <linearGradient id="tsm-notte" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1B2942"/><stop offset="1" stop-color="#2E4467"/></linearGradient>
+          <clipPath id="tsm-vetro"><rect x="54" y="66" width="136" height="248"/></clipPath>
+          <clipPath id="tsm-sopra"><rect x="0" y="0" width="600" height="468"/></clipPath>
+        </defs>
+        <rect class="muro" x="0" y="0" width="600" height="470"/>
+        <rect class="muro__zoccolo" x="0" y="398" width="600" height="72"/><rect class="muro__cimasa" x="0" y="392" width="600" height="8"/>
+        <g class="modo" data-m="0"><circle class="luce" data-m="0" cx="301" cy="100" r="340" opacity="1"/></g>
+        <g class="modo" data-m="1"><circle class="luce" data-m="1" cx="301" cy="100" r="340" opacity="1"/></g>
+        <g class="modo" data-m="2"><circle class="luce" data-m="2" cx="301" cy="100" r="340" opacity="1"/></g>
+        <g class="finestrella"><rect class="finestrella__telaio" x="44" y="56" width="156" height="268" rx="3"/><rect class="finestrella__vetro" x="54" y="66" width="136" height="248"/><path class="finestrella__piombo" clip-path="url(#tsm-vetro)" d="M-194 66 L54 314 M-194 314 L54 66 M-164 66 L84 314 M-164 314 L84 66 M-134 66 L114 314 M-134 314 L114 66 M-104 66 L144 314 M-104 314 L144 66 M-74 66 L174 314 M-74 314 L174 66 M-44 66 L204 314 M-44 314 L204 66 M-14 66 L234 314 M-14 314 L234 66 M16 66 L264 314 M16 314 L264 66 M46 66 L294 314 M46 314 L294 66 M76 66 L324 314 M76 314 L324 66 M106 66 L354 314 M106 314 L354 66 M136 66 L384 314 M136 314 L384 66 M166 66 L414 314 M166 314 L414 66 M196 66 L444 314 M196 314 L444 66 M226 66 L474 314 M226 314 L474 66 M256 66 L504 314 M256 314 L504 66 M286 66 L534 314 M286 314 L534 66 M316 66 L564 314 M316 314 L564 66 M346 66 L594 314 M346 314 L594 66 M376 66 L624 314 M376 314 L624 66 M406 66 L654 314 M406 314 L654 66 M436 66 L684 314 M436 314 L684 66"/><path class="finestrella__riflesso" d="M70 300 L176 88 L186 96 L82 312 Z"/><rect class="finestrella__traversa" x="54" y="186" width="136" height="7"/><rect class="finestrella__davanzale" x="36" y="322" width="172" height="10" rx="2"/></g>
+        <g class="rami__tutti"><path class="rami" d="M612 34 C 566 44, 520 30, 474 50 S 396 76, 356 60 M520 36 C 508 22, 490 16, 470 12 M474 50 C 470 70, 452 84, 430 92 M600 70 C 566 74, 540 92, 512 96 M408 66 C 398 52, 384 46, 366 44"/><circle class="lucina__alone" cx="586" cy="40" r="7"/><circle class="lucina" cx="586" cy="40" r="2.6"/><circle class="lucina__alone" cx="560" cy="38" r="7"/><circle class="lucina" cx="560" cy="38" r="2.6"/><circle class="lucina__alone" cx="540" cy="34" r="7"/><circle class="lucina" cx="540" cy="34" r="2.6"/><circle class="lucina__alone" cx="512" cy="38" r="7"/><circle class="lucina" cx="512" cy="38" r="2.6"/><circle class="lucina__alone" cx="490" cy="46" r="7"/><circle class="lucina" cx="490" cy="46" r="2.6"/><circle class="lucina__alone" cx="466" cy="54" r="7"/><circle class="lucina" cx="466" cy="54" r="2.6"/><circle class="lucina__alone" cx="446" cy="62" r="7"/><circle class="lucina" cx="446" cy="62" r="2.6"/><circle class="lucina__alone" cx="420" cy="70" r="7"/><circle class="lucina" cx="420" cy="70" r="2.6"/><circle class="lucina__alone" cx="396" cy="70" r="7"/><circle class="lucina" cx="396" cy="70" r="2.6"/><circle class="lucina__alone" cx="372" cy="62" r="7"/><circle class="lucina" cx="372" cy="62" r="2.6"/><circle class="lucina__alone" cx="500" cy="22" r="7"/><circle class="lucina" cx="500" cy="22" r="2.6"/><circle class="lucina__alone" cx="478" cy="13" r="7"/><circle class="lucina" cx="478" cy="13" r="2.6"/><circle class="lucina__alone" cx="462" cy="72" r="7"/><circle class="lucina" cx="462" cy="72" r="2.6"/><circle class="lucina__alone" cx="440" cy="88" r="7"/><circle class="lucina" cx="440" cy="88" r="2.6"/><circle class="lucina__alone" cx="584" cy="72" r="7"/><circle class="lucina" cx="584" cy="72" r="2.6"/><circle class="lucina__alone" cx="556" cy="80" r="7"/><circle class="lucina" cx="556" cy="80" r="2.6"/><circle class="lucina__alone" cx="530" cy="92" r="7"/><circle class="lucina" cx="530" cy="92" r="2.6"/><circle class="lucina__alone" cx="392" cy="52" r="7"/><circle class="lucina" cx="392" cy="52" r="2.6"/></g>
+        <g class="orologio"><path class="orologio__staffa" d="M600 146 H 530 C 520 146, 514 138, 520 132 C 526 126, 534 132, 530 138 M600 158 C 580 158, 566 166, 560 176 C 556 184, 564 190, 570 184 M512 146 V 174"/><circle class="orologio__cassa" cx="512" cy="214" r="40"/><circle class="orologio__quadrante" cx="512" cy="214" r="35"/><path class="orologio__tacche" d="M512 189 L512 181 M526.5 188.9 L528.5 185.4 M537.1 199.5 L540.6 197.5 M537 214 L545 214 M537.1 228.5 L540.6 230.5 M526.5 239.1 L528.5 242.6 M512 239 L512 247 M497.5 239.1 L495.5 242.6 M486.9 228.5 L483.4 230.5 M487 214 L479 214 M486.9 199.5 L483.4 197.5 M497.5 188.9 L495.5 185.4"/><path class="orologio__ore" d="M512 214 L499.3 226.7"/><path class="orologio__minuti" d="M512 214 L512 241"/><circle class="orologio__perno" cx="512" cy="214" r="3"/></g>
+        <rect class="tavolo" x="0" y="470" width="600" height="90"/><rect class="tavolo__bordo" x="0" y="470" width="600" height="9"/><path class="tavolo__venature" d="M0 500 C 120 494, 260 506, 380 498 S 540 504, 600 500 M0 528 C 140 534, 300 522, 450 530 S 560 526, 600 532 M60 548 C 160 544, 260 552, 360 546"/>
+        <g class="cera__retro"><ellipse class="cera__cima" cx="300" cy="340" rx="75" ry="14"/><ellipse class="cera__grumo cera__grumo--a" cx="234" cy="334.9" rx="6" ry="3.4"/><ellipse class="cera__grumo cera__grumo--b" cx="247" cy="331.6" rx="8.5" ry="4.4"/><ellipse class="cera__grumo cera__grumo--c" cx="262" cy="329.4" rx="6.5" ry="3.8"/><ellipse class="cera__grumo cera__grumo--a" cx="276" cy="328.2" rx="9" ry="4.6"/><ellipse class="cera__grumo cera__grumo--b" cx="291" cy="327.6" rx="6" ry="3.4"/><ellipse class="cera__grumo cera__grumo--c" cx="305" cy="327.5" rx="8" ry="4.2"/><ellipse class="cera__grumo cera__grumo--a" cx="319" cy="328" rx="6.5" ry="3.8"/><ellipse class="cera__grumo cera__grumo--b" cx="333" cy="328.9" rx="9" ry="4.6"/><ellipse class="cera__grumo cera__grumo--c" cx="348" cy="330.7" rx="6" ry="3.6"/><ellipse class="cera__grumo cera__grumo--a" cx="362" cy="333.6" rx="7.5" ry="4"/><ellipse class="cera__conca" cx="300" cy="343" rx="38" ry="7"/></g>
+        <g class="sopra-il-tavolo" clip-path="url(#tsm-sopra)"><g class="servito" transform="translate(0 0)">
+          <g class="modo modo--rossa" data-m="0">
+            <g class="candela" data-m="0" transform="translate(0 0)"><rect class="candela__corpo" x="272" y="150" width="56" height="214" rx="4"/><rect class="candela__luce" x="279" y="152" width="10" height="210"/><rect class="candela__ombra" x="316" y="152" width="12" height="210"/><ellipse class="candela__cima" cx="300" cy="151" rx="28" ry="6"/><path class="stoppino" d="M300 151 Q299 144 301 136"/></g>
+            <g class="pozza" data-m="0" opacity="1"><ellipse class="pozza__lago" cx="300" cy="151.5" rx="21" ry="4.2"/><ellipse class="pozza__lustro" cx="294" cy="150.4" rx="8" ry="1.5"/><path class="pozza__lago" d="M319 149 C 325 150, 328 154, 327 160 C 326 163, 322 162, 322 158 C 322 155, 320 153, 317 152 Z"/></g>
+            <path class="cola cola1" data-m="0" d="M322 153 C326 175, 321 196, 324 222 C327 248, 322 256, 325 276" stroke-dasharray="126 150" stroke-dashoffset="0"/>
+            <path class="cola cola2" data-m="0" d="M279 154 C275 186, 281 212, 277 246 C273 280, 280 306, 278 350" stroke-dasharray="199 223" stroke-dashoffset="0"/>
+            <g class="fiamma" data-m="0" transform="translate(301 136) scale(1) translate(-301 -136)" opacity="1"><ellipse class="fiamma__alone" cx="301" cy="102" rx="36" ry="54"/><path class="fiamma__fuori" d="M301 62 C 311 84, 318 104, 315 118 C 313 130, 307 137, 301 137 C 295 137, 289 130, 287 118 C 284 104, 291 84, 301 62 Z"/><path class="fiamma__dentro" d="M301 84 C 307 98, 310 110, 308 120 C 306 128, 304 131, 301 131 C 298 131, 296 128, 294 120 C 292 110, 295 98, 301 84 Z"/><ellipse class="fiamma__blu" cx="301" cy="131" rx="5.5" ry="6.5"/><path class="fiamma__stoppino" d="M300.5 137 Q299.5 130 302 124"/></g>
+            <path class="scintilla" data-m="0" d="M302 116 L304 126 L314 128 L304 130 L302 140 L300 130 L290 128 L300 126 Z" opacity="0"/>
+          </g>
+          <g class="modo modo--bianca" data-m="1">
+            <g class="candela" data-m="1" transform="translate(0 0)"><rect class="candela__corpo" x="272" y="150" width="56" height="214" rx="4"/><rect class="candela__luce" x="279" y="152" width="10" height="210"/><rect class="candela__ombra" x="316" y="152" width="12" height="210"/><ellipse class="candela__cima" cx="300" cy="151" rx="28" ry="6"/><path class="stoppino" d="M300 151 Q299 144 301 136"/></g>
+            <g class="pozza" data-m="1" opacity="1"><ellipse class="pozza__lago" cx="300" cy="151.5" rx="21" ry="4.2"/><ellipse class="pozza__lustro" cx="294" cy="150.4" rx="8" ry="1.5"/><path class="pozza__lago" d="M319 149 C 325 150, 328 154, 327 160 C 326 163, 322 162, 322 158 C 322 155, 320 153, 317 152 Z"/></g>
+            <path class="cola cola1" data-m="1" d="M322 153 C326 175, 321 196, 324 222 C327 248, 322 256, 325 276" stroke-dasharray="126 150" stroke-dashoffset="0"/>
+            <path class="cola cola2" data-m="1" d="M279 154 C275 186, 281 212, 277 246 C273 280, 280 306, 278 350" stroke-dasharray="199 223" stroke-dashoffset="0"/>
+            <g class="fiamma" data-m="1" transform="translate(301 136) scale(1) translate(-301 -136)" opacity="1"><ellipse class="fiamma__alone" cx="301" cy="102" rx="36" ry="54"/><path class="fiamma__fuori" d="M301 62 C 311 84, 318 104, 315 118 C 313 130, 307 137, 301 137 C 295 137, 289 130, 287 118 C 284 104, 291 84, 301 62 Z"/><path class="fiamma__dentro" d="M301 84 C 307 98, 310 110, 308 120 C 306 128, 304 131, 301 131 C 298 131, 296 128, 294 120 C 292 110, 295 98, 301 84 Z"/><ellipse class="fiamma__blu" cx="301" cy="131" rx="5.5" ry="6.5"/><path class="fiamma__stoppino" d="M300.5 137 Q299.5 130 302 124"/></g>
+            <path class="scintilla" data-m="1" d="M302 116 L304 126 L314 128 L304 130 L302 140 L300 130 L290 128 L300 126 Z" opacity="0"/>
+          </g>
+          <g class="modo modo--arancio" data-m="2">
+            <g class="candela" data-m="2" transform="translate(0 0)"><rect class="candela__corpo" x="272" y="150" width="56" height="214" rx="4"/><rect class="candela__luce" x="279" y="152" width="10" height="210"/><rect class="candela__ombra" x="316" y="152" width="12" height="210"/><ellipse class="candela__cima" cx="300" cy="151" rx="28" ry="6"/><path class="stoppino" d="M300 151 Q299 144 301 136"/></g>
+            <g class="pozza" data-m="2" opacity="1"><ellipse class="pozza__lago" cx="300" cy="151.5" rx="21" ry="4.2"/><ellipse class="pozza__lustro" cx="294" cy="150.4" rx="8" ry="1.5"/><path class="pozza__lago" d="M319 149 C 325 150, 328 154, 327 160 C 326 163, 322 162, 322 158 C 322 155, 320 153, 317 152 Z"/></g>
+            <path class="cola cola1" data-m="2" d="M322 153 C326 175, 321 196, 324 222 C327 248, 322 256, 325 276" stroke-dasharray="126 150" stroke-dashoffset="0"/>
+            <path class="cola cola2" data-m="2" d="M279 154 C275 186, 281 212, 277 246 C273 280, 280 306, 278 350" stroke-dasharray="199 223" stroke-dashoffset="0"/>
+            <g class="fiamma" data-m="2" transform="translate(301 136) scale(1) translate(-301 -136)" opacity="1"><ellipse class="fiamma__alone" cx="301" cy="102" rx="36" ry="54"/><path class="fiamma__fuori" d="M301 62 C 311 84, 318 104, 315 118 C 313 130, 307 137, 301 137 C 295 137, 289 130, 287 118 C 284 104, 291 84, 301 62 Z"/><path class="fiamma__dentro" d="M301 84 C 307 98, 310 110, 308 120 C 306 128, 304 131, 301 131 C 298 131, 296 128, 294 120 C 292 110, 295 98, 301 84 Z"/><ellipse class="fiamma__blu" cx="301" cy="131" rx="5.5" ry="6.5"/><path class="fiamma__stoppino" d="M300.5 137 Q299.5 130 302 124"/></g>
+            <path class="scintilla" data-m="2" d="M302 116 L304 126 L314 128 L304 130 L302 140 L300 130 L290 128 L300 126 Z" opacity="0"/>
+          </g>
+        </g></g>
+        <g class="cera__fronte"><ellipse class="cera__lago" cx="300" cy="470" rx="126" ry="11"/><path class="cera__corpo" d="M225 340 A75 14 0 0 0 375 340 C 377 372, 386 420, 404 470 H 196 C 214 420, 223 372, 225 340 Z"/><path class="cera__lingua cera__lingua--b" d="M207 404 V443 A7 7 0 0 0 221 443 V404 Z"/><circle class="cera__lingua cera__lingua--b" cx="214" cy="444" r="8.5"/><path class="cera__lingua cera__lingua--c" d="M224 396 V424 A6 6 0 0 0 236 424 V396 Z"/><circle class="cera__lingua cera__lingua--c" cx="230" cy="425" r="7.5"/><path class="cera__lingua cera__lingua--a" d="M365.5 398 V429.5 A6.5 6.5 0 0 0 378.5 429.5 V398 Z"/><circle class="cera__lingua cera__lingua--a" cx="372" cy="430.5" r="8"/><path class="cera__lingua cera__lingua--b" d="M380.5 408 V450.5 A7.5 7.5 0 0 0 395.5 450.5 V408 Z"/><circle class="cera__lingua cera__lingua--b" cx="388" cy="451.5" r="9"/><path class="cera__lingua cera__lingua--a" d="M229 345.3 V396.3 A7 7 0 0 0 243 396.3 V345.3 Z"/><circle class="cera__lingua cera__lingua--a" cx="236" cy="397.3" r="8.5"/><path class="cera__riflesso" d="M232.5 350.3 V394.3"/><path class="cera__lingua cera__lingua--b" d="M244 348.8 V436.8 A8 8 0 0 0 260 436.8 V348.8 Z"/><circle class="cera__lingua cera__lingua--b" cx="252" cy="437.8" r="9.5"/><path class="cera__riflesso" d="M247.5 353.8 V434.8"/><path class="cera__lingua cera__lingua--bianca" d="M261.5 350.7 V388.2 A6.5 6.5 0 0 0 274.5 388.2 V350.7 Z"/><circle class="cera__lingua cera__lingua--bianca" cx="268" cy="389.2" r="8"/><path class="cera__riflesso" d="M265 355.7 V386.2"/><path class="cera__lingua cera__lingua--a" d="M275.5 351.7 V463.2 A8.5 8.5 0 0 0 292.5 463.2 V351.7 Z"/><circle class="cera__lingua cera__lingua--a" cx="284" cy="464.2" r="10"/><path class="cera__riflesso" d="M279 356.7 V461.2"/><path class="cera__lingua cera__lingua--c" d="M292.5 352 V414.5 A7.5 7.5 0 0 0 307.5 414.5 V352 Z"/><circle class="cera__lingua cera__lingua--c" cx="300" cy="415.5" r="9"/><path class="cera__riflesso" d="M296 357 V412.5"/><path class="cera__lingua cera__lingua--b" d="M308 351.7 V447.7 A8 8 0 0 0 324 447.7 V351.7 Z"/><circle class="cera__lingua cera__lingua--b" cx="316" cy="448.7" r="9.5"/><path class="cera__riflesso" d="M311.5 356.7 V445.7"/><path class="cera__lingua cera__lingua--a" d="M325 350.7 V395.7 A7 7 0 0 0 339 395.7 V350.7 Z"/><circle class="cera__lingua cera__lingua--a" cx="332" cy="396.7" r="8.5"/><path class="cera__riflesso" d="M328.5 355.7 V393.7"/><path class="cera__lingua cera__lingua--arancio" d="M340.5 348.8 V429.3 A7.5 7.5 0 0 0 355.5 429.3 V348.8 Z"/><circle class="cera__lingua cera__lingua--arancio" cx="348" cy="430.3" r="9"/><path class="cera__riflesso" d="M344 353.8 V427.3"/><path class="cera__lingua cera__lingua--c" d="M357.5 345.3 V378.8 A6.5 6.5 0 0 0 370.5 378.8 V345.3 Z"/><circle class="cera__lingua cera__lingua--c" cx="364" cy="379.8" r="8"/><path class="cera__riflesso" d="M361 350.3 V376.8"/><path class="cera__orlo" d="M225 340 A75 14 0 0 0 375 340"/><ellipse class="cera__lingua cera__lingua--b" cx="231" cy="344.5" rx="6" ry="3.6"/><ellipse class="cera__lingua cera__lingua--c" cx="243" cy="347.1" rx="8.5" ry="4.6"/><ellipse class="cera__lingua cera__lingua--a" cx="257" cy="351.5" rx="6.5" ry="4"/><ellipse class="cera__lingua cera__lingua--b" cx="270" cy="351.8" rx="9" ry="5"/><ellipse class="cera__lingua cera__lingua--c" cx="283" cy="354.1" rx="5.5" ry="3.4"/><ellipse class="cera__lingua cera__lingua--a" cx="296" cy="352.5" rx="8" ry="4.4"/><ellipse class="cera__lingua cera__lingua--b" cx="311" cy="353.8" rx="6" ry="3.8"/><ellipse class="cera__lingua cera__lingua--c" cx="324" cy="351.3" rx="9.5" ry="5.2"/><ellipse class="cera__lingua cera__lingua--a" cx="338" cy="351.6" rx="6.5" ry="4"/><ellipse class="cera__lingua cera__lingua--b" cx="350" cy="347.9" rx="8" ry="4.8"/><ellipse class="cera__lingua cera__lingua--c" cx="362" cy="347.9" rx="6" ry="3.6"/><ellipse class="cera__lingua cera__lingua--a" cx="371" cy="343.5" rx="5" ry="3.2"/></g>
+      </svg><!--/CERA-->
+          <figcaption class="tavola__didascalia">
+            <span class="tavola__d" data-m="0" data-i18n="p.d0">La candela rossa si posa sulla cera delle sere prima, si accende e cola.</span>
+            <span class="tavola__d" data-m="1" data-i18n="p.d1">La candela bianca, sulla cera rossa.</span>
+            <span class="tavola__d" data-m="2" data-i18n="p.d2">La candela arancio, come quelle sui candelieri di ferro.</span>
+          </figcaption>
+          <div class="tavola__modi" role="group" aria-label="Quale candela" data-i18n-aria="p.modi">
+            <button type="button" data-modo="0" aria-pressed="true" data-i18n="p.b0">Rossa</button>
+            <button type="button" data-modo="1" aria-pressed="false" data-i18n="p.b1">Bianca</button>
+            <button type="button" data-modo="2" aria-pressed="false" data-i18n="p.b2">Arancio</button>
+          </div>
+          <p class="visually-hidden" id="ceraLeggi" aria-live="polite"></p>
+        </figure>
+      </div>
+      <p class="apertura__nota" data-i18n="p.nota">Le candele sulla cera colata sono le loro: sui tavoli della sala, una sera dopo l'altra.</p>
+    </div>
+  </section>
+
+  <!-- ══════ LE PROPOSTE DEL GIORNO ══════ -->
+  <section id="proposte" class="capitolo capitolo--muro" aria-labelledby="proposteT">
+    <div class="proposte">
+      <div class="proposte__testo">
+        <p class="etichetta" data-i18n="g2.etichetta">Ogni giorno</p>
+        <h2 id="proposteT" class="capitolo__titolo" data-i18n="g2.titolo">Proposte del giorno</h2>
+        <p class="capitolo__sotto" data-i18n="g2.sotto">Oltre alla carta, ogni giorno qualche piatto in più. Le proposte del giorno le scriviamo sulla nostra pagina Facebook.</p>
+        <figure class="proposte__foto reveal"><button type="button" class="foto" data-full="img/casoncelli.jpg" aria-label="Ingrandisci la foto" data-i18n-aria="m.ingrandisci"><img src="img/casoncelli.jpg" width="1000" height="533" alt="I casoncelli al ragù sul piatto dipinto, sulla tovaglia a quadretti." data-i18n-alt="a.casoncelli"></button><figcaption data-i18n="k.casoncelli">I casoncelli al ragù.</figcaption></figure>
+        <p class="proposte__link"><a href="https://www.facebook.com/ristorantesantomaso" target="_blank" rel="noopener" data-i18n="g2.link">Le proposte di oggi, su Facebook</a></p>
+      </div>
+      <div class="foglio reveal">
+        <div class="foglio__carta">
+          <p class="foglio__data" data-i18n="g2.data">Mercoledì 30 settembre</p>
+          <p class="foglio__titolo" data-i18n="g2.foglio">Proposte del giorno</p>
+          <ul class="foglio__voci">
+            <li data-i18n="g2.p1">Risotto ai funghi porcini</li>
+            <li data-i18n="g2.p2">Casoncelli al ragù</li>
+            <li data-i18n="g2.p3">Zuppa di fagioli cannellini con pasta</li>
+            <li data-i18n="g2.p4">Tacchino tonnato con fagiolini al vapore</li>
+            <li data-i18n="g2.p5">Insalatona d'orzo con pollo e verdura</li>
+          </ul>
+          <p class="foglio__nota" data-i18n="g2.esempio">un giorno, per esempio</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════ LA CARTA SULLE MENSOLE ══════ -->
+  <section id="carta" class="capitolo capitolo--legno" aria-labelledby="cartaT">
+    <p class="etichetta" data-i18n="c.etichetta">La carta</p>
+    <h2 id="cartaT" class="capitolo__titolo" data-i18n="c.titolo">Sulle mensole, i piatti di sempre</h2>
+    <p class="capitolo__sotto" data-i18n="c.sotto">Il risotto giallo, l'ossobuco, la cotoletta: la cucina milanese, come le bottiglie vecchie sulle mensole della sala. Qui una parte della carta.</p>
+    <div class="scaffale">
+      <div class="mensola reveal">
+        <h3 class="mensola__nome" data-i18n="c.m1">Antipasti</h3>
+        <ul class="mensola__voci">
+          <li class="cartellino"><span class="cartellino__nome" data-i18n="c.a1">Frittata di cipolla con insalata</span></li>
+          <li class="cartellino"><span class="cartellino__nome" data-i18n="c.a2">Insalata di mare</span></li>
+          <li class="cartellino cartellino--foto"><img src="img/m-salumi.jpg" width="560" height="560" alt="La bruschetta, il crudo e il salame sul piatto dipinto." data-i18n-alt="a.salumi"><span class="cartellino__nome" data-i18n="c.a3">Degustazione di salumi con miele e formaggio</span></li>
+          <li class="cartellino cartellino--foto"><img src="img/m-mondeghili.jpg" width="560" height="469" alt="I mondeghili con l'insalata." data-i18n-alt="a.mondeghili"><span class="cartellino__nome" data-i18n="c.a4">Mondeghili, le polpette milanesi</span></li>
+        </ul>
+      </div>
+      <div class="mensola reveal">
+        <h3 class="mensola__nome" data-i18n="c.m2">Risotti e primi</h3>
+        <ul class="mensola__voci">
+          <li class="cartellino cartellino--foto"><img src="img/m-risotto.jpg" width="560" height="560" alt="Il risotto giallo, da vicino." data-i18n-alt="a.risotto"><span class="cartellino__nome" data-i18n="c.r1">Risotto alla milanese</span></li>
+          <li class="cartellino cartellino--foto"><img src="img/m-ossobuco.jpg" width="560" height="560" alt="Il risotto alla milanese con l'ossobuco sul piatto dipinto." data-i18n-alt="a.ossobuco"><span class="cartellino__nome" data-i18n="c.r2">Risotto alla milanese con l'ossobuco</span></li>
+          <li class="cartellino"><span class="cartellino__nome" data-i18n="c.r3">Risotto ai funghi porcini</span></li>
+          <li class="cartellino"><span class="cartellino__nome" data-i18n="c.r4">Casoncelli al ragù</span></li>
+        </ul>
+      </div>
+      <div class="mensola reveal">
+        <h3 class="mensola__nome" data-i18n="c.m3">Secondi</h3>
+        <ul class="mensola__voci">
+          <li class="cartellino cartellino--foto"><img src="img/m-cotoletta.jpg" width="560" height="560" alt="La cotoletta con l'osso, le verdure grigliate e il limone sul piatto dipinto." data-i18n-alt="a.cotoletta"><span class="cartellino__nome" data-i18n="c.s1">Cotoletta alla milanese, con l'osso</span></li>
+          <li class="cartellino"><span class="cartellino__nome" data-i18n="c.s2">Cotoletta «orecchio d'elefante»</span></li>
+          <li class="cartellino"><span class="cartellino__nome" data-i18n="c.s3">Tagliata di pollo, radicchio e scamorza e aceto balsamico</span></li>
+          <li class="cartellino cartellino--foto"><img src="img/m-agnello.jpg" width="560" height="328" alt="Le costolette d'agnello fritte sul piatto dipinto." data-i18n-alt="a.agnello"><span class="cartellino__nome" data-i18n="c.s4">Costolette d'agnello fritte, quando ci sono</span></li>
+        </ul>
+      </div>
+      <div class="mensola reveal">
+        <h3 class="mensola__nome" data-i18n="c.m4">Dolci</h3>
+        <ul class="mensola__voci">
+          <li class="cartellino"><span class="cartellino__nome" data-i18n="c.d1">Tiramisù</span></li>
+          <li class="cartellino"><span class="cartellino__nome" data-i18n="c.d2">Torta di mele</span></li>
+          <li class="cartellino"><span class="cartellino__nome" data-i18n="c.d3">Torta di pere con cacao</span></li>
+          <li class="cartellino cartellino--foto"><img src="img/m-dolci.jpg" width="560" height="560" alt="Le fette di torta impiattate sul banco d'acciaio della cucina." data-i18n-alt="a.dolci"><span class="cartellino__nome" data-i18n="c.d4">I dolci, pronti</span></li>
+        </ul>
+      </div>
+    </div>
+    <p class="carta__nota" data-i18n="c.nota">Dalla carta di TheFork e dai nostri piatti su Instagram e Facebook. La carta completa ve la portiamo a tavola.</p>
+  </section>
+
+  <!-- ══════ LA SALA, DALLA FINESTRA A PIOMBO ══════ -->
+  <section id="sala" class="capitolo capitolo--chiaro" aria-labelledby="salaT">
+    <p class="etichetta" data-i18n="s.etichetta">La sala</p>
+    <h2 id="salaT" class="capitolo__titolo" data-i18n="s.titolo">Dalla finestra a piombo</h2>
+    <p class="capitolo__sotto" data-i18n="s.sotto">La sala gialla coi vetri a piombo, i lampadari di ferro coi rami e le lucine, le mensole di bottiglie vecchie e, la sera, le candele sui tavoli.</p>
+    <div class="finestra reveal">
+      <ul class="finestra__vetri">
+<!--FINESTRA-->
+        <li class="vetro vetro--f1"><button type="button" class="foto" data-full="img/v-candele.jpg" aria-label="Ingrandisci la foto" data-i18n-aria="m.ingrandisci"><img src="img/v-candele.jpg" width="900" height="675" alt="Le candele arancio accese sui candelieri di ferro, sotto i rami con le lucine." data-i18n-alt="a.candele"></button></li>
+        <li class="vetro vetro--f2"><button type="button" class="foto" data-full="img/v-lampadario.jpg" aria-label="Ingrandisci la foto" data-i18n-aria="m.ingrandisci"><img src="img/v-lampadario.jpg" width="900" height="1092" alt="Il lampadario di ferro battuto coi rami e le lucine, le finestre ad arco, la tavolata apparecchiata." data-i18n-alt="a.lampadario"></button></li>
+        <li class="vetro vetro--f3"><button type="button" class="foto" data-full="img/v-bianca.jpg" aria-label="Ingrandisci la foto" data-i18n-aria="m.ingrandisci"><img src="img/v-bianca.jpg" width="826" height="1034" alt="Una candela bianca accesa, con le colate di cera rossa." data-i18n-alt="a.bianca"></button></li>
+        <li class="vetro vetro--f4"><button type="button" class="foto" data-full="img/v-cera.jpg" aria-label="Ingrandisci la foto" data-i18n-aria="m.ingrandisci"><img src="img/v-cera.jpg" width="720" height="1000" alt="Una candela rossa accesa sopra la cera colata delle sere prima." data-i18n-alt="a.cera"></button></li>
+        <li class="vetro vetro--f5"><button type="button" class="foto" data-full="img/v-tavolo.jpg" aria-label="Ingrandisci la foto" data-i18n-aria="m.ingrandisci"><img src="img/v-tavolo.jpg" width="900" height="1083" alt="Il tavolo di legno col candeliere di ferro e le candele rosse, le mensole di bottiglie vecchie." data-i18n-alt="a.tavolo"></button></li>
+        <li class="vetro vetro--f6"><button type="button" class="foto" data-full="img/v-sala.jpg" aria-label="Ingrandisci la foto" data-i18n-aria="m.ingrandisci"><img src="img/v-sala.jpg" width="900" height="577" alt="La sala gialla coi vetri a piombo e i lampadari, di sera." data-i18n-alt="a.sala"></button></li>
+        <li class="vetro vetro--f7"><button type="button" class="foto" data-full="img/v-calice.jpg" aria-label="Ingrandisci la foto" data-i18n-aria="m.ingrandisci"><img src="img/v-calice.jpg" width="590" height="1635" alt="Il calice inciso «Taberna San Tomaso Milano», col vino rosso." data-i18n-alt="a.calice"></button></li>
+        <li class="vetro vetro--f8"><button type="button" class="foto" data-full="img/v-torta.jpg" aria-label="Ingrandisci la foto" data-i18n-aria="m.ingrandisci"><img src="img/v-torta.jpg" width="900" height="1200" alt="Una fetta di torta col cioccolato sul piatto dipinto." data-i18n-alt="a.torta"></button></li>
+        <li class="vetro vetro--f9"><button type="button" class="foto" data-full="img/v-oggi.jpg" aria-label="Ingrandisci la foto" data-i18n-aria="m.ingrandisci"><img src="img/v-oggi.jpg" width="900" height="975" alt="La sala oggi: la colonna, il candeliere di ferro, le pile di piatti dipinti." data-i18n-alt="a.oggi"></button></li>
+        <li class="vetro vetro--vetro vetro--largo vetro--l1 vetro--ambra" aria-hidden="true"></li>
+        <li class="vetro vetro--vetro vetro--largo vetro--l2 vetro--blu" aria-hidden="true"></li>
+        <li class="vetro vetro--vetro vetro--largo vetro--l3 vetro--giallo" aria-hidden="true"></li>
+        <li class="vetro vetro--vetro vetro--largo vetro--l4 vetro--verde" aria-hidden="true"></li>
+        <li class="vetro vetro--vetro vetro--largo vetro--l5 vetro--ambra" aria-hidden="true"></li>
+        <li class="vetro vetro--vetro vetro--largo vetro--l6 vetro--blu" aria-hidden="true"></li>
+        <li class="vetro vetro--vetro vetro--largo vetro--l7 vetro--giallo" aria-hidden="true"></li>
+        <li class="vetro vetro--vetro vetro--largo vetro--l8 vetro--verde" aria-hidden="true"></li>
+        <li class="vetro vetro--vetro vetro--largo vetro--l9 vetro--ambra" aria-hidden="true"></li>
+        <li class="vetro vetro--vetro vetro--largo vetro--l10 vetro--blu" aria-hidden="true"></li>
+        <li class="vetro vetro--vetro vetro--largo vetro--l11 vetro--giallo" aria-hidden="true"></li>
+        <li class="vetro vetro--vetro vetro--largo vetro--l12 vetro--verde" aria-hidden="true"></li>
+        <li class="vetro vetro--vetro vetro--largo vetro--l13 vetro--ambra" aria-hidden="true"></li>
+        <li class="vetro vetro--vetro vetro--largo vetro--l14 vetro--blu" aria-hidden="true"></li>
+        <li class="vetro vetro--vetro vetro--largo vetro--l15 vetro--giallo" aria-hidden="true"></li>
+        <li class="vetro vetro--vetro vetro--largo vetro--l16 vetro--verde" aria-hidden="true"></li>
+        <li class="vetro vetro--vetro vetro--largo vetro--l17 vetro--ambra" aria-hidden="true"></li>
+        <li class="vetro vetro--vetro vetro--largo vetro--l18 vetro--blu" aria-hidden="true"></li>
+        <li class="vetro vetro--vetro vetro--stretto vetro--s1 vetro--blu" aria-hidden="true"></li>
+        <li class="vetro vetro--vetro vetro--stretto vetro--s2 vetro--giallo" aria-hidden="true"></li>
+        <li class="vetro vetro--vetro vetro--stretto vetro--s3 vetro--verde" aria-hidden="true"></li>
+        <li class="vetro vetro--vetro vetro--stretto vetro--s4 vetro--ambra" aria-hidden="true"></li>
+        <li class="vetro vetro--vetro vetro--stretto vetro--s5 vetro--blu" aria-hidden="true"></li>
+        <li class="vetro vetro--vetro vetro--stretto vetro--s6 vetro--giallo" aria-hidden="true"></li>
+        <li class="vetro vetro--vetro vetro--stretto vetro--s7 vetro--verde" aria-hidden="true"></li>
+        <li class="vetro vetro--vetro vetro--stretto vetro--s8 vetro--ambra" aria-hidden="true"></li>
+        <li class="vetro vetro--vetro vetro--stretto vetro--s9 vetro--blu" aria-hidden="true"></li>
+        <li class="vetro vetro--vetro vetro--stretto vetro--s10 vetro--giallo" aria-hidden="true"></li>
+        <li class="vetro vetro--vetro vetro--stretto vetro--s11 vetro--verde" aria-hidden="true"></li>
+        <li class="vetro vetro--vetro vetro--stretto vetro--s12 vetro--ambra" aria-hidden="true"></li>
+        <li class="vetro vetro--vetro vetro--stretto vetro--s13 vetro--blu" aria-hidden="true"></li>
+        <li class="vetro vetro--vetro vetro--stretto vetro--s14 vetro--giallo" aria-hidden="true"></li>
+        <!--/FINESTRA-->
+      </ul>
+    </div>
+    <p class="finestra__nota" data-i18n="s.nota">Le foto sono nostre, da Facebook e Instagram; due sono di clienti su Google: il tavolo col candeliere (Marcella Amoroso) e la torta (Riccardo Torriero). Toccate un vetro per vedere la foto intera.</p>
+  </section>
+
+  <!-- ══════ DICONO ══════ -->
+  <section id="dicono" class="capitolo capitolo--muro" aria-labelledby="diconoT">
+    <p class="etichetta" data-i18n="d.etichetta">Dicono</p>
+    <h2 id="diconoT" class="capitolo__titolo" data-i18n="d.titolo">Calda e accogliente, a due passi dal Duomo</h2>
+    <p class="voto voto--sezione"><b class="voto__n">4,4</b> <span class="voto__su" data-i18n="d.google">su Google, 985 recensioni</span></p>
+    <ul class="recensioni">
+      <li class="recensione reveal"><p class="recensione__testo">«Conosco questo posto da 25 anni, ci venivo a pausa pranzo molti anni fa e avevo un ottimo ricordo, ci son tornata oggi e pensavo non ci fosse più, come tanti bei posti ormai scomparsi a Milano. Invece c’è ancora! Ho mangiato uno spezzatino con funghi porcini (freschi) e patate, un ottimo tiramisù, mio marito un ottima torta cioccolato e pere. […] Super consigliato!»</p><p class="recensione__chi"><b>Marcella Amoroso</b> <span data-i18n="d.g7m">Google, 7 mesi fa</span></p></li>
+      <li class="recensione reveal"><p class="recensione__testo">«Ho cenato in questo posto sabato sera con la mia famiglia ed è diventato uno dei miei posti preferiti! L' atmosfera è calda e accogliente, il cibo è ottimo ed il servizio eccellente. […] Lo consiglio vivamente!»</p><p class="recensione__chi"><b>SARA DELFI</b> <span data-i18n="d.g4m">Google, 4 mesi fa</span></p></li>
+      <li class="recensione reveal"><p class="recensione__testo">«Ottima scelta<br>Trovato quasi per caso di fronte l’albergo in cui ho pernottato<br>Servizio semplice ma efficace<br>Piatti abbondanti, saporiti e ben curati<br>Ottimo il risotto al gorgonzola e radicchio»</p><p class="recensione__chi"><b>Riccardo Torriero</b> <span data-i18n="d.g10m">Google, 10 mesi fa</span></p></li>
+      <li class="recensione reveal"><p class="recensione__testo">«Locale estremamente accogliente a due passi dal Duomo: l’ambiente è semplice ma davvero particolare, con vecchi tavoli di legno. […] Ho apprezzato molto la disponibilità a offrire un’alternativa vegana non scontata: mi hanno preparato un risotto con funghi davvero eccellente. […] Offre un menu giornaliero oltre ad alcune proposte fisse. Raccomandato per la posizione, la qualità e l’ambiente!»</p><p class="recensione__chi"><b>rebecca garavaglia</b> <span data-i18n="d.g2a">Google, 2 anni fa</span></p></li>
+      <li class="recensione reveal"><p class="recensione__testo">«Piacevole scoperta! […] Cucina locale, ottimo il risotto e la carne. […] Tappa consigliata se siete in centro.»</p><p class="recensione__chi"><b>Marco</b> <span data-i18n="d.g8m">Google, 8 mesi fa</span></p></li>
+      <li class="recensione reveal"><p class="recensione__testo">«Ideale per la pausa pranzo. Ogni giorno piatti espressi, sempre con una zuppa adatta ai vegetariani. Ottimi i risotti. Ambiente informale, l'ideale è pranza prima delle 13 o dopo le 14. […]»</p><p class="recensione__chi"><b>Stefano Sonzogni</b> <span data-i18n="d.g2a">Google, 2 anni fa</span></p></li>
+    </ul>
+    <p class="dicono__nota"><span data-i18n="d.nota">Dalle recensioni su Google, come sono state scritte. Anche la frase in alto viene da una recensione su Google.</span> <a href="https://www.google.com/maps/search/?api=1&amp;query=Taberna+San+Tomaso%2C+Via+San+Tomaso+5%2C+20121+Milano" target="_blank" rel="noopener" data-i18n="d.tutte">Tutte le recensioni su Google</a></p>
+  </section>
+
+  <!-- ══════ ORARI, SOTTO L'OROLOGIO ══════ -->
+  <section id="orari" class="capitolo capitolo--legno" aria-labelledby="orariT">
+    <div class="orari">
+      <figure class="orari__foto reveal"><button type="button" class="foto" data-full="img/orologio.jpg" aria-label="Ingrandisci la foto" data-i18n-aria="m.ingrandisci"><img src="img/orologio.jpg" width="900" height="900" alt="L'orologio da stazione sulla staffa di ferro, col lampadario coi rami e le lucine, in bianco e nero." data-i18n-alt="a.orologio"></button><figcaption data-i18n="k.orologio">L'orologio della sala.</figcaption></figure>
+      <div class="orari__testo">
+        <p class="etichetta" data-i18n="o.etichetta">Orari</p>
+        <h2 id="orariT" class="capitolo__titolo" data-i18n="o.titolo">A mezzogiorno e la sera</h2>
+        <p class="orari__sotto" data-i18n="o.sotto">Pranzo e cena dal lunedì al venerdì, il sabato solo la cena.</p>
+        <p class="stato stato--settimana" id="orarioStato2" aria-hidden="true"></p>
+        <div class="settimana" role="table" aria-label="Orari di apertura" data-i18n-aria="o.cap">
+          <div class="settimana__giorno" role="row" data-day="1"><span role="rowheader" data-i18n="g.lun">Lunedì</span><span role="cell">12–15 · 19–22</span></div>
+          <div class="settimana__giorno" role="row" data-day="2"><span role="rowheader" data-i18n="g.mar">Martedì</span><span role="cell">12–15 · 19–22</span></div>
+          <div class="settimana__giorno" role="row" data-day="3"><span role="rowheader" data-i18n="g.mer">Mercoledì</span><span role="cell">12–15 · 19–22</span></div>
+          <div class="settimana__giorno" role="row" data-day="4"><span role="rowheader" data-i18n="g.gio">Giovedì</span><span role="cell">12–15 · 19–22</span></div>
+          <div class="settimana__giorno" role="row" data-day="5"><span role="rowheader" data-i18n="g.ven">Venerdì</span><span role="cell">12–15 · 19–22</span></div>
+          <div class="settimana__giorno" role="row" data-day="6"><span role="rowheader" data-i18n="g.sab">Sabato</span><span role="cell">19–22</span></div>
+          <div class="settimana__giorno" role="row" data-day="0"><span role="rowheader" data-i18n="g.dom">Domenica</span><span role="cell" data-i18n="o.chiuso">Chiuso</span></div>
+        </div>
+        <p class="orari__nota" data-i18n="o.nota">Orari dalla nostra scheda Google (settembre 2026).</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════ DOVE ══════ -->
+  <section id="dove" class="capitolo capitolo--chiaro" aria-labelledby="doveT">
+    <p class="etichetta" data-i18n="w.etichetta">Dove</p>
+    <h2 id="doveT" class="capitolo__titolo" data-i18n="w.titolo">Fra il Castello e Cordusio</h2>
+    <p class="capitolo__sotto" data-i18n="w.testo">Via San Tomaso è una via corta fra Via Broletto e Via Rovello, e prende il nome dalla chiesa di San Tomaso in Terramara, in Via Broletto, a pochi passi. La porta è quella coi rampicanti e le lucine, sotto il cartello tondo giallo.</p>
+    <div class="dove">
+      <figure class="dove__porta reveal"><button type="button" class="foto" data-full="img/porta.jpg" aria-label="Ingrandisci la foto" data-i18n-aria="m.ingrandisci"><img src="img/porta.jpg" width="1400" height="1231" alt="La facciata di sera: il cartello tondo giallo sulla staffa, la porta coi rampicanti e le lucine, lo stendardo «Ristorante», le lanterne, la finestra con la grata a losanghe." data-i18n-alt="a.porta"></button><figcaption data-i18n="k.porta">La porta di Via San Tomaso 5, di sera.</figcaption></figure>
+      <div class="dove__resto">
+        <div class="cartina reveal">
+          <iframe title="Mappa: Taberna San Tomaso, Via San Tomaso 5, Milano" data-i18n-title="w.mappa" src="https://maps.google.com/maps?q=Taberna%20San%20Tomaso%2C%20Via%20San%20Tomaso%205%2C%2020121%20Milano&amp;z=16&amp;output=embed" width="600" height="400" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <dl class="indirizzo">
+          <div><dt data-i18n="w.dove">Dove</dt><dd data-i18n="w.dovev">Via San Tomaso 5, 20121 Milano</dd></div>
+          <div><dt data-i18n="w.metro">In metro</dt><dd data-i18n="w.metrov">M1 Cordusio, a circa 220&nbsp;metri; M1 Cairoli, a circa 260; M1 e M3 Duomo, a circa 450</dd></div>
+          <div><dt data-i18n="w.tram">In tram</dt><dd data-i18n="w.tramv">1 e 12 a Cordusio; 1, 12 e 14 in Via Cusani; 1, 2 e 4 a Cairoli</dd></div>
+          <div><dt data-i18n="w.bus">In autobus</dt><dd data-i18n="w.busv">57 a Cairoli, 96 in Via Cusani</dd></div>
+          <div><dt data-i18n="w.tel">Telefono</dt><dd><a href="tel:+3902874510" class="intero">02 874510</a></dd></div>
+          <div><dt>Email</dt><dd><a href="mailto:tabernasantomaso5@gmail.com">tabernasantomaso5@gmail.com</a></dd></div>
+        </dl>
+        <p class="dove__prenota" data-i18n="w.prenota">Per un tavolo, o per chiedere qualcosa: chiamateci o scriveteci.</p>
+        <p class="dove__azioni"><a class="bottone bottone--pieno" href="tel:+3902874510"><span data-i18n="t.chiama">Chiama</span>&nbsp;<span class="intero">02 874510</span></a> <a class="bottone bottone--vuoto" href="https://www.google.com/maps/dir/?api=1&amp;destination=Taberna+San+Tomaso%2C+Via+San+Tomaso+5%2C+20121+Milano" target="_blank" rel="noopener" data-i18n="t.indicazioni">Indicazioni</a></p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="piede">
+  <div class="piede__dentro">
+    <svg class="piede__distintivo" viewBox="0 0 200 200" aria-hidden="true">
+      <defs><path id="tsm-arco-su" d="M26 100 A74 74 0 0 1 174 100"/><path id="tsm-arco-giu" d="M16 100 A84 84 0 0 0 184 100"/></defs>
+      <circle class="distintivo__fondo" cx="100" cy="100" r="94"/><circle class="distintivo__anello" cx="100" cy="100" r="62"/>
+      <text class="distintivo__scritta"><textPath href="#tsm-arco-su" startOffset="50%" text-anchor="middle">TABERNA SAN TOMASO</textPath></text>
+      <text class="distintivo__scritta"><textPath href="#tsm-arco-giu" startOffset="50%" text-anchor="middle">MILANO</textPath></text>
+      <path class="distintivo__coda" d="M36 86 L12 92 L24 103 L14 116 L32 117 Z M164 83 L188 81 L177 95 L190 108 L170 114 Z"/>
+      <path class="distintivo__nastro" d="M34 86 C 72 76, 128 94, 166 83 L 172 114 C 134 126, 72 108, 30 117 Z"/>
+      <text class="distintivo__piccola" x="100" y="96" text-anchor="middle">TABERNA</text>
+      <text class="distintivo__grande" x="100" y="112" text-anchor="middle">S.TOMASO</text>
+    </svg>
+    <p class="piede__nome">Taberna San Tomaso</p>
+    <p class="piede__dove">Via San Tomaso 5, 20121 Milano · <a href="tel:+3902874510" class="intero">02 874510</a> · <a href="mailto:tabernasantomaso5@gmail.com">tabernasantomaso5@gmail.com</a></p>
+    <p class="piede__orario" data-i18n="f2.orario">Lunedì–venerdì 12–15 e 19–22 · sabato 19–22 · domenica chiuso</p>
+    <p class="piede__social"><a href="https://www.facebook.com/ristorantesantomaso" target="_blank" rel="noopener">Facebook</a> · <a href="https://www.instagram.com/tabernasantomaso/" target="_blank" rel="noopener">Instagram</a></p>
+    <p class="piede__cred" data-i18n="f2.cred">Sito dimostrativo realizzato da <a href="https://bespokestud.io" rel="noopener">Bespoke Studio</a> · orari, voto e recensioni dalla loro scheda Google (settembre 2026); le foto dalle loro pagine Facebook e Instagram e dal loro profilo TheFork, due da clienti su Google; la carta da TheFork; le loro parole da Instagram e Facebook. La candela l'abbiamo disegnata noi, il distintivo l'abbiamo ridisegnato dal loro.</p>
+    <p><a class="piede__su" href="#inizio" data-i18n="f2.su">Torna su ↑</a></p>
+  </div>
+</footer>
+
+<div id="actionBar" class="action-bar">
+  <a href="tel:+3902874510"><span data-i18n="t.chiama">Chiama</span></a>
+  <a href="https://www.google.com/maps/dir/?api=1&amp;destination=Taberna+San+Tomaso%2C+Via+San+Tomaso+5%2C+20121+Milano" target="_blank" rel="noopener"><span data-i18n="t.indicazioni">Indicazioni</span></a>
+</div>
+
+<div id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Foto ingrandita" data-i18n-aria="m.lightbox">
+  <button id="lightboxClose" type="button" aria-label="Chiudi" data-i18n-aria="m.chiudi">×</button>
+  <img id="lightboxImg" src="" alt="">
+</div>
+
+</body>
+</html>
