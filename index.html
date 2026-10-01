@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
 <script>(function(){var r=document.documentElement;r.classList.remove('no-js');
 /* la firma: finché main.js non parte c'è la sala senza la candela nuova; se il codice non arriva, dopo 2,5 s la candela accesa */
 try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add('firma-attesa');window.__attesaCera=setTimeout(function(){r.classList.remove('firma-attesa')},2500)}}catch(e){}})()</script>
@@ -20,15 +21,66 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
 <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="img/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Stoke:wght@300;400&amp;family=Fondamento&amp;family=Caudex:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="fonts/fonts.css?v=1">
 <link rel="stylesheet" href="css/styles.css?v=1">
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
 <script src="js/main.js?v=1" defer></script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Restaurant","name":"Taberna San Tomaso","description":"Trattoria milanese in Via San Tomaso 5 a Milano, fra Cordusio e il Castello Sforzesco: risotto alla milanese, ossobuco, cotoletta, le proposte del giorno.","url":"https://rotenzark.github.io/taberna-san-tomaso/","image":"https://rotenzark.github.io/taberna-san-tomaso/img/og.jpg","telephone":"+39 02 874510","email":"tabernasantomaso5@gmail.com","servesCuisine":["Milanese","Italiana"],"address":{"@type":"PostalAddress","streetAddress":"Via San Tomaso 5","postalCode":"20121","addressLocality":"Milano","addressRegion":"MI","addressCountry":"IT"},"geo":{"@type":"GeoCoordinates","latitude":45.4671749,"longitude":9.1848649},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"12:00","closes":"15:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"19:00","closes":"22:00"}],"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.4","reviewCount":"985","bestRating":"5"}}
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "Taberna San Tomaso",
+  "description": "Trattoria milanese in Via San Tomaso 5 a Milano, fra Cordusio e il Castello Sforzesco: risotto alla milanese, ossobuco, cotoletta, le proposte del giorno.",
+  "url": "https://rotenzark.github.io/taberna-san-tomaso/",
+  "image": "https://rotenzark.github.io/taberna-san-tomaso/img/og.jpg",
+  "telephone": "+39 02 874510",
+  "email": "tabernasantomaso5@gmail.com",
+  "servesCuisine": [
+    "Milanese",
+    "Italiana"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Via San Tomaso 5",
+    "postalCode": "20121",
+    "addressLocality": "Milano",
+    "addressRegion": "MI",
+    "addressCountry": "IT"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 45.4671749,
+    "longitude": 9.1848649
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "12:00",
+      "closes": "15:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "opens": "19:00",
+      "closes": "22:00"
+    }
+  ]
+}
 </script>
 </head>
 <body>
@@ -79,7 +131,7 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
       <h1 id="titolo" class="titolo" data-i18n="h.titolo">Un ristorante con antiche tradizioni.</h1>
       <p class="apertura__frase" data-i18n="h.testo">Trattoria nel cuore di Milano a due passi dal Castello Sforzesco e da Piazza Cordusio.</p>
       <blockquote class="citazione">
-        <p>«Ottima esperienza nel centro che più centro di Milano non si può.»</p>
+        <p lang="it">«Ottima esperienza nel centro che più centro di Milano non si può.»</p>
         <footer data-i18n="h.chi">Luca Buccinnà, in una recensione su Google</footer>
       </blockquote>
       <p class="voto"><b class="voto__n">4,4</b> <span class="voto__su" data-i18n="h.google">su Google, 985 recensioni</span></p>
@@ -291,12 +343,12 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
     <h2 id="diconoT" class="capitolo__titolo" data-i18n="d.titolo">Calda e accogliente, a due passi dal Duomo</h2>
     <p class="voto voto--sezione"><b class="voto__n">4,4</b> <span class="voto__su" data-i18n="d.google">su Google, 985 recensioni</span></p>
     <ul class="recensioni">
-      <li class="recensione reveal"><p class="recensione__testo">«Conosco questo posto da 25 anni, ci venivo a pausa pranzo molti anni fa e avevo un ottimo ricordo, ci son tornata oggi e pensavo non ci fosse più, come tanti bei posti ormai scomparsi a Milano. Invece c’è ancora! Ho mangiato uno spezzatino con funghi porcini (freschi) e patate, un ottimo tiramisù, mio marito un ottima torta cioccolato e pere. […] Super consigliato!»</p><p class="recensione__chi"><b>Marcella Amoroso</b> <span data-i18n="d.g7m">Google, 7 mesi fa</span></p></li>
-      <li class="recensione reveal"><p class="recensione__testo">«Ho cenato in questo posto sabato sera con la mia famiglia ed è diventato uno dei miei posti preferiti! L' atmosfera è calda e accogliente, il cibo è ottimo ed il servizio eccellente. […] Lo consiglio vivamente!»</p><p class="recensione__chi"><b>SARA DELFI</b> <span data-i18n="d.g4m">Google, 4 mesi fa</span></p></li>
+      <li class="recensione reveal"><p lang="it" class="recensione__testo">«Conosco questo posto da 25 anni, ci venivo a pausa pranzo molti anni fa e avevo un ottimo ricordo, ci son tornata oggi e pensavo non ci fosse più, come tanti bei posti ormai scomparsi a Milano. Invece c’è ancora! Ho mangiato uno spezzatino con funghi porcini (freschi) e patate, un ottimo tiramisù, mio marito un ottima torta cioccolato e pere. […] Super consigliato!»</p><p class="recensione__chi"><b>Marcella Amoroso</b> <span data-i18n="d.g7m">Google, 7 mesi fa</span></p></li>
+      <li class="recensione reveal"><p lang="it" class="recensione__testo">«Ho cenato in questo posto sabato sera con la mia famiglia ed è diventato uno dei miei posti preferiti! L' atmosfera è calda e accogliente, il cibo è ottimo ed il servizio eccellente. […] Lo consiglio vivamente!»</p><p class="recensione__chi"><b>SARA DELFI</b> <span data-i18n="d.g4m">Google, 4 mesi fa</span></p></li>
       <li class="recensione reveal"><p class="recensione__testo">«Ottima scelta<br>Trovato quasi per caso di fronte l’albergo in cui ho pernottato<br>Servizio semplice ma efficace<br>Piatti abbondanti, saporiti e ben curati<br>Ottimo il risotto al gorgonzola e radicchio»</p><p class="recensione__chi"><b>Riccardo Torriero</b> <span data-i18n="d.g10m">Google, 10 mesi fa</span></p></li>
-      <li class="recensione reveal"><p class="recensione__testo">«Locale estremamente accogliente a due passi dal Duomo: l’ambiente è semplice ma davvero particolare, con vecchi tavoli di legno. […] Ho apprezzato molto la disponibilità a offrire un’alternativa vegana non scontata: mi hanno preparato un risotto con funghi davvero eccellente. […] Offre un menu giornaliero oltre ad alcune proposte fisse. Raccomandato per la posizione, la qualità e l’ambiente!»</p><p class="recensione__chi"><b>rebecca garavaglia</b> <span data-i18n="d.g2a">Google, 2 anni fa</span></p></li>
-      <li class="recensione reveal"><p class="recensione__testo">«Piacevole scoperta! […] Cucina locale, ottimo il risotto e la carne. […] Tappa consigliata se siete in centro.»</p><p class="recensione__chi"><b>Marco</b> <span data-i18n="d.g8m">Google, 8 mesi fa</span></p></li>
-      <li class="recensione reveal"><p class="recensione__testo">«Ideale per la pausa pranzo. Ogni giorno piatti espressi, sempre con una zuppa adatta ai vegetariani. Ottimi i risotti. Ambiente informale, l'ideale è pranza prima delle 13 o dopo le 14. […]»</p><p class="recensione__chi"><b>Stefano Sonzogni</b> <span data-i18n="d.g2a">Google, 2 anni fa</span></p></li>
+      <li class="recensione reveal"><p lang="it" class="recensione__testo">«Locale estremamente accogliente a due passi dal Duomo: l’ambiente è semplice ma davvero particolare, con vecchi tavoli di legno. […] Ho apprezzato molto la disponibilità a offrire un’alternativa vegana non scontata: mi hanno preparato un risotto con funghi davvero eccellente. […] Offre un menu giornaliero oltre ad alcune proposte fisse. Raccomandato per la posizione, la qualità e l’ambiente!»</p><p class="recensione__chi"><b>rebecca garavaglia</b> <span data-i18n="d.g2a">Google, 2 anni fa</span></p></li>
+      <li class="recensione reveal"><p lang="it" class="recensione__testo">«Piacevole scoperta! […] Cucina locale, ottimo il risotto e la carne. […] Tappa consigliata se siete in centro.»</p><p class="recensione__chi"><b>Marco</b> <span data-i18n="d.g8m">Google, 8 mesi fa</span></p></li>
+      <li class="recensione reveal"><p lang="it" class="recensione__testo">«Ideale per la pausa pranzo. Ogni giorno piatti espressi, sempre con una zuppa adatta ai vegetariani. Ottimi i risotti. Ambiente informale, l'ideale è pranza prima delle 13 o dopo le 14. […]»</p><p class="recensione__chi"><b>Stefano Sonzogni</b> <span data-i18n="d.g2a">Google, 2 anni fa</span></p></li>
     </ul>
     <p class="dicono__nota"><span data-i18n="d.nota">Dalle recensioni su Google, come sono state scritte. Anche la frase in alto viene da una recensione su Google.</span> <a href="https://www.google.com/maps/search/?api=1&amp;query=Taberna+San+Tomaso%2C+Via+San+Tomaso+5%2C+20121+Milano" target="_blank" rel="noopener" data-i18n="d.tutte">Tutte le recensioni su Google</a></p>
   </section>
@@ -333,7 +385,7 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
       <figure class="dove__porta reveal"><button type="button" class="foto" data-full="img/porta.jpg" aria-label="Ingrandisci la foto" data-i18n-aria="m.ingrandisci"><img src="img/porta.jpg" width="1400" height="1231" alt="La facciata di sera: il cartello tondo giallo sulla staffa, la porta coi rampicanti e le lucine, lo stendardo «Ristorante», le lanterne, la finestra con la grata a losanghe." data-i18n-alt="a.porta"></button><figcaption data-i18n="k.porta">La porta di Via San Tomaso 5, di sera.</figcaption></figure>
       <div class="dove__resto">
         <div class="cartina reveal">
-          <iframe title="Mappa: Taberna San Tomaso, Via San Tomaso 5, Milano" data-i18n-title="w.mappa" src="https://maps.google.com/maps?q=Taberna%20San%20Tomaso%2C%20Via%20San%20Tomaso%205%2C%2020121%20Milano&amp;z=16&amp;output=embed" width="600" height="400" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div class="mappa-clic" data-mappa-clic style="--mappa-h: 400px"><template><iframe title="Mappa: Taberna San Tomaso, Via San Tomaso 5, Milano" data-i18n-title="w.mappa" src="https://maps.google.com/maps?q=Taberna%20San%20Tomaso%2C%20Via%20San%20Tomaso%205%2C%2020121%20Milano&amp;z=16&amp;output=embed" width="600" height="400" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></template><div class="mappa-clic__velo"><a class="mappa-clic__btn" href="https://www.google.com/maps/dir/?api=1&amp;destination=Taberna+San+Tomaso%2C+Via+San+Tomaso+5%2C+20121+Milano" target="_blank" rel="noopener">Mostra la mappa</a><p class="mappa-clic__nota">La mappa è di Google: aprendola, Google riceve il tuo indirizzo IP e può usare i suoi cookie.</p></div></div>
         </div>
         <dl class="indirizzo">
           <div><dt data-i18n="w.dove">Dove</dt><dd data-i18n="w.dovev">Via San Tomaso 5, 20121 Milano</dd></div>
@@ -367,7 +419,7 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
     <p class="piede__dove">Via San Tomaso 5, 20121 Milano · <a href="tel:+3902874510" class="intero">02 874510</a> · <a href="mailto:tabernasantomaso5@gmail.com">tabernasantomaso5@gmail.com</a></p>
     <p class="piede__orario" data-i18n="f2.orario">Lunedì–venerdì 12–15 e 19–22 · sabato 19–22 · domenica chiuso</p>
     <p class="piede__social"><a href="https://www.facebook.com/ristorantesantomaso" target="_blank" rel="noopener">Facebook</a> · <a href="https://www.instagram.com/tabernasantomaso/" target="_blank" rel="noopener">Instagram</a></p>
-    <p class="piede__cred" data-i18n="f2.cred">Sito dimostrativo realizzato da <a href="https://bespokestud.io" rel="noopener">Bespoke Studio</a> · orari, voto e recensioni dalla loro scheda Google (settembre 2026); le foto dalle loro pagine Facebook e Instagram e dal loro profilo TheFork, due da clienti su Google; la carta da TheFork; le loro parole da Instagram e Facebook. La candela l'abbiamo disegnata noi, il distintivo l'abbiamo ridisegnato dal loro.</p>
+    <p class="piede__cred" data-i18n="f2.cred">Sito dimostrativo realizzato da <a href="https://bespokestud.io" rel="noopener">Bespoke Studio</a> · <a href="privacy.html">Privacy</a> · orari, voto e recensioni dalla loro scheda Google (settembre 2026); le foto dalle loro pagine Facebook e Instagram e dal loro profilo TheFork, due da clienti su Google; la carta da TheFork; le loro parole da Instagram e Facebook. La candela l'abbiamo disegnata noi, il distintivo l'abbiamo ridisegnato dal loro.</p>
     <p><a class="piede__su" href="#inizio" data-i18n="f2.su">Torna su ↑</a></p>
   </div>
 </footer>
@@ -382,5 +434,6 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
   <img id="lightboxImg" src="" alt="">
 </div>
 
+<script src="js/mappa-clic.js?v=1" defer></script>
 </body>
 </html>
